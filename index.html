@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
-<title>Jan Volhejn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jan Volhejn</title>
 </head>
-
 <body>
-<h1>Jan Volhejn</h1>
-</body>
+    <div id="navigation">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+        </div>
+        <ul>
+            <li><a href="#about-me">O mně</a></li>
+            <li><a href="#what-do-i-do">Co dělám</a></li>
+            <li><a href="#my-work">Moje práce</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </div>
+    <div id="page">
+        <div id="about-me" class="container">
+            <h1>Jan Volhejn</h1>
+        </div>
+        <div id="what-do-i-do" class="container">
+            
+        </div>
+        <div id="my-work" class="container">
+            <h1>Moje Práce</h1>
+            <div class="project">
+                <h2>Android aplikace pro hlášení na tréninky</h2>
+                <p>Aplikace s připojením k databázi pro zobrazení přihlášených účastníků tréninku.</p>
+            </div>
+            <div class="project">
+                <h2>Extraktor příloh z .msg souborů (Outlook zprávy)</h2>
+                <p>Aplikace pro uložení příloh emailů do vybraných složek.</p>
+            </div>
+        </div>
+        <div id="contact" class="container">¨
 
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.querySelector("#navigation").classList.toggle("active");
+            document.querySelector("#page").classList.toggle("active");
+        }
+    </script>
+</body>
 </html>
