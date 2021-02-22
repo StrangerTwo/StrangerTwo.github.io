@@ -121,15 +121,59 @@ body {
 }
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     background: #ccc;
-    margin-top: 100vh;
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .container:first-child{
     margin-top: 0;
 }
 
-h1 {
+.container .caption h1{
+    font-family: sans-serif;
+    font-size: 52pt;
+}
+
+.container div {
     text-align: center;
+    max-width: 1200px;
+}
+
+#title h1 {
+    font-family: sans-serif;
+    font-size: 52pt;
+}
+
+#title span {
+    font-size: 26pt;
+}
+
+.container .content {
+    font-size: 20pt;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.project {
+    flex-basis: 44%;
+    padding: 30px;
+    margin-top: 20px;
+    background: #dbd7d2cc;
+    border: 1px solid #282C35;
+    border-radius: 10px;
 }
