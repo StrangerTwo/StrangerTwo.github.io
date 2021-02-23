@@ -204,9 +204,14 @@ html {
 
 @media screen and (max-width: 800px){
     #navigation {
-        position: sticky;
+        animation-name: sideToTopNavAnim;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        left: 0px;
         height: initial;
         width: 100%;
+        position: sticky;
     }
     #navigation ul {
         margin-top: 0px;
@@ -223,5 +228,32 @@ html {
     }
     #navigation .toggle-btn {
         display: none;
+    }
+    #page{
+        animation-name: sideToTopPageAnim;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes sideToTopNavAnim{
+    0%{
+        top: -48px;
+        left: 0px;
+        position: fixed;
+    }
+    100%{
+        top: 0px;
+        position: fixed;
+    }
+}
+
+@keyframes sideToTopPageAnim{
+    0%{
+        padding-top: 0px;
+    }
+    100%{
+        padding-top: 48px;
     }
 }
