@@ -96,6 +96,7 @@ body {
 #navigation ul {
     margin-top: 120px;
     font-size: 14pt;
+    transition: font-size 2s;
 }
 
 #navigation ul li{
@@ -211,6 +212,7 @@ html {
         left: 0px;
         height: initial;
         width: 100%;
+        min-width: 550px;
         position: sticky;
     }
     #navigation ul {
@@ -234,6 +236,15 @@ html {
         animation-duration: 1.2s;
         animation-iteration-count: 1;
         animation-timing-function: ease-out;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #navigation {
+        min-width: 400px;
+    }
+    #navigation ul {
+        font-size: 11pt;
     }
 }
 
