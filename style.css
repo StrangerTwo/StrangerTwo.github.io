@@ -218,7 +218,7 @@ html {
         animation-timing-function: ease-out;
         left: 0px;
         height: initial;
-        width: 100vw;
+        width: 100%;
         position: sticky;
     }
     #navigation ul {
