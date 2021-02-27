@@ -52,8 +52,12 @@ body {
 }
 
 @font-face {
-    font-family: poppins;
+    font-family: Poppins;
     src: url(fonts/Poppins.ttf);
+}
+
+h1, span, p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 #navigation .toggle-btn{
@@ -152,7 +156,6 @@ body {
 }
 
 .container .caption h1{
-    font-family: poppins, sans-serif;
     font-size: 52pt;
 }
 
@@ -166,7 +169,6 @@ body {
 }
 
 #title h1 {
-    font-family: poppins, sans-serif;
     font-size: 60pt;
 }
 
