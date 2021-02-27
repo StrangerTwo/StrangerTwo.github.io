@@ -56,8 +56,10 @@ body {
     src: url(fonts/Poppins.ttf);
 }
 
-h1, span, p {
+h1, h2, span, p, a {
     font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+h1, h2, span, p {
     line-height: 140%;
 }
 
