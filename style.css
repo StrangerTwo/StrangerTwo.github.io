@@ -141,7 +141,7 @@ h1, h2, span, p {
 
 .container {
     min-height: 100vh;
-    background: #ccc;
+    background: radial-gradient(rgb(209, 209, 209), rgb(158, 158, 158));
     margin-top: 50vh;
     display: flex;
     flex-direction: column;
