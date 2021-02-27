@@ -141,7 +141,7 @@ h1, h2, span, p {
 
 .container {
     min-height: 100vh;
-    background: radial-gradient(rgb(209, 209, 209), rgb(158, 158, 158));
+    background: radial-gradient(rgb(209, 209, 209), rgb(145, 145, 145));
     margin-top: 50vh;
     display: flex;
     flex-direction: column;
@@ -200,6 +200,7 @@ html {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-between;
+    padding-bottom: 20px;
 }
 
 .project {
@@ -209,6 +210,24 @@ html {
     background: #dbd7d2cc;
     border: 1px solid #282C35;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project p {
+    margin: 10px 0px;
+}
+
+.project img {
+    max-height: 400px;
+    max-width: 500px;
 }
 
 @media screen and (min-width: 801px){
