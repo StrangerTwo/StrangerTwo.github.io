@@ -58,6 +58,7 @@ body {
 
 h1, span, p {
     font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 140%;
 }
 
 #navigation .toggle-btn{
