@@ -272,6 +272,10 @@ html {
         animation-iteration-count: 1;
         animation-timing-function: ease-out;
     }
+    .project img {
+        max-height: 300px;
+        max-width: 375px;
+    }
 }
 
 @media screen and (max-width: 550px){
