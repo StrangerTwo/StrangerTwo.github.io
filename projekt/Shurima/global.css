@@ -1,0 +1,205 @@
+@font-face{
+    font-family: 'Open Sans';
+    src: url(Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Zilla_Slab';
+    src: url(Fonts/Zilla_Slab/ZillaSlab-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Metropolis';
+    src: url(Fonts/metropolis/Metropolis-Regular.otf);
+}
+
+body {
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    font-size: 13pt;
+}
+
+#page {
+    min-width: 550px;
+    max-width: 800px;
+    margin: 15px auto;
+    border: 0.5px solid #54534F;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#FFC132,#FCE24C, #FF9C17);
+    border-bottom: 1px solid #0f0f0f;
+    color: #0f0f0f;
+}
+
+header h1{
+    text-align: center;
+    padding: 0.2em 0;
+    color: #00374b;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+
+header img {
+    padding-top: 5px;
+    max-height: 90px;
+}
+
+nav{
+    background-color:  #FEAC23;
+    font-size: larger;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #191C21;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #FEAC23;
+    padding: 8px 12px;
+    border-right: 2px solid #CF6D25;
+    cursor: pointer;
+}
+nav ul li:first-child {
+    border-left: 2px solid #CF6D25;
+}
+nav ul li:hover {
+    background-color: #FF9D18;
+}
+nav ul li:hover a {
+    color: #000;
+}
+
+main{
+    background-color: #F7EAB7;
+    background-image: linear-gradient(to bottom, #F7EAB7, #FDD03E);
+    padding: 40px 50px;
+    font-family: 'Roboto', sans-serif, Tahoma;
+}
+
+div.clanek {
+    max-width: 700px;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #FEC334;
+    border: 0.7px solid #FFA51E;
+    /* font-family: 'Metropolis', serif; */
+    font-family: 'Zilla_Slab', serif;
+    font-size: 13.5pt;
+    text-align: justify;
+}
+
+div.clanek h3 {
+    font-family: 'Metropolis', sans-serif;
+}
+
+h1, h2:first-of-type {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.imgFull img{
+    clear: both;
+    width: 100%;
+}
+
+.videoFull iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.hrdina {
+    max-width: 180px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #FEC334;
+    border: 0.7px solid#624226;
+    text-align: center;
+}
+
+.hrdina a {
+    color: white;
+    text-decoration: none;
+}
+
+.hrdina h3 {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: #FEA41D;
+    border: 0.7px solid #624226;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black
+}
+
+.seznam {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #624226;
+    text-align: center;
+}
+
+.obrazekHrdiny{
+    max-width: 170px;
+}
+
+.hrdina img {
+    width: 100%;
+    display: block;
+}
+
+.hrdinaNadpis {
+    margin-top: 20px;
+}
+
+.hrdinaNadpis ~ .hrdinaNadpis{
+    margin: 0;
+}
+
+.hrdinaNadpis div {
+    display: inline-block;
+    width: 30%;
+    max-height: 32px;
+}
+
+.hrdinaNadpis h2 {
+    display: inline;
+}
+
+.hrdinaNadpis audio {
+    vertical-align: bottom;
+    max-height: 32px;
+}
+
+.popisHrdiny {
+    margin-top: 10px;
+    font-size: 12pt;
+    border-radius: 8px;
+    padding: 5px;
+    border: 0.5px solid #624226;
+    background-color: #AF621C;
+}
