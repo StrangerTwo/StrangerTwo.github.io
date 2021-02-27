@@ -61,6 +61,7 @@ h1, h2, span, p, a {
 }
 h1, h2, span, p {
     line-height: 140%;
+    transition: font-size 2s, padding 2s;
 }
 
 #navigation .toggle-btn{
@@ -123,6 +124,9 @@ h1, h2, span, p {
 }
 
 #navigation a {
+    display: block;
+    width: 100%;
+    height: 100%;
     color: rgba(230, 230, 230, 0.9);
     text-decoration: none;
 }
@@ -172,6 +176,10 @@ h1, h2, span, p {
 
 #title h1 {
     font-size: 60pt;
+}
+
+#title hr {
+    border: 2px solid black;
 }
 
 #title span {
@@ -250,6 +258,18 @@ html {
 @media screen and (max-width: 550px){
     #navigation ul {
         font-size: 11pt;
+    }
+    #title h1 {
+        font-size: 44pt;
+    }
+    #title span {
+        font-size: 24pt;
+    }
+    .caption h1{
+        font-size: 42pt;
+    }
+    .content p, .content span {
+        font-size: 80%;
     }
 }
 
