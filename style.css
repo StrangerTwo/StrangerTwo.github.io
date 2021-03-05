@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    overflow: scroll;
+}
+
 body {
     background: white;
 }
